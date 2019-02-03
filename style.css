@@ -1,0 +1,67 @@
+body{
+	background: url('cut3.jpg') top no-repeat;
+	
+	background-size: cover;
+}
+#container{
+	width: 500px;
+	margin: 20px auto;
+	background: #fff;
+	padding: 50px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	text-align: center;
+	color: #800020;
+	font-family: century gothic;
+	font-weight: bold;
+	font-size: 20px;
+}
+h2{
+	font-size: 45px;
+}
+form{
+	text-align: left;
+}
+form label{
+	display: block;
+	margin-top: 40px;
+}
+form input{
+	width: 90px;
+	padding: 5px;
+	box-sizing: border-box;
+	margin: 5px auto 0;
+}
+form select{
+	margin-top: 5px;
+}
+button{
+	width: 270px;
+	height: 70px;
+	background:  #800020;
+	color: white;
+	border: none;
+	border-bottom: solid 3px #222;
+	margin:20px 0;
+	outline: none;
+}
+button:hover{
+	border-color: #111;
+	background: #8d021f;
+}
+button:active{
+	position: relative;
+	top: 1px;
+}
+#totalTip:before{
+	content: "Tip amount";
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 10px;
+}
+#box{
+	height: 200px;
+	width: 200px;
+	background:red;
+}
